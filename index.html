@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/42504c3439.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="Jagadesh.png" class="logo">
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#protfolio">Protfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>Fresher</p>
+      <h1>Hi, I'm <span>Jagadeshwaran k</span></h1>
+      <h3>From Chennai</h3>
+    </div>
+  </div>
+</div>
+
+
+
+<!------------About------------->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="J_AM.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Aim to be associated with the organization that gives me scope to update my knowledge with the latest trends and be part of the team that works dynamically towards the growth of the organization and gain satisfaction thereof.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('project')">Project</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Front End</span><br>HTML/CSS</li>
+            <li><span>Back End</span><br>SQL/Python</li>
+            <li><span>Data Analyzing</span><br>Power BI</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="project">
+          <ul>
+            <li><span>Certification</span><br>SQL,Python,HTML/CSS</li>
+            <li><span>Freelancing</span><br>webdevelopment & Appdevelopment</li>
+            <li><span>Final Year Project</span><br>Heart Diseases Prediction Using Machine Learning Algorithm Using Python</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2023</span><br>M.Sc CS from DG Vaishnav College Chennai</li>
+            <li><span>2020</span><br>BCA from Hindustasn College of Arts And Sciernce Chennai</li>
+            <li><span>2017</span><br>HSC From V.O.C.Vid.Mat.Hr.Sec.SChool </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-----------Skills------->
+<div id="skills">
+  <div class="container">
+    <h1 class="sub-title">My Skills</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-database"></i>
+        <h2>sql</h2>
+        <p>Sql is used for DataBase</p>
+        <a href="https://www.w3schools.com/sql/default.asp">learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-python"></i>
+        <h2>PYthon</h2>
+        <p>PYthon is used for BackEnd</p>
+        <a href="https://www.w3schools.com/python/default.asp">learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>HTML</h2>
+        <p>HTML is used for webdevelopment</p>
+        <a href="https://www.w3schools.com/html/default.asp">learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------protfolio------->
+<div id="protfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="sql.png">
+        <div class="layer">
+          <h3>Social media app </h3>
+          <p>qewrtyuijhgfds</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="python.png">
+        <div class="layer">
+          <h3>Website </h3>
+        <p>qewrtyuijhgfds</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+      <div class="work">
+        <img src="web_development.png">
+        <div class="layer">
+          <h3>Business Intelligence</h3>
+        <p>qewrtyuijhgfds</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!--------------Contact-------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>Contact @Jagadeshwaran K</p>
+        <p><i class="fa-solid fa-phone"></i>8838263378</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/jagadeshwaran-k-0611941a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/JAGADSHWARAN"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/jagadesh03_jk?igsh=cWdiZDRsdWdmYjg2"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100009993009533&mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <a href="Jagadeshwaran_K.pdf"  download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="YourName" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="2" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Jagadeshwaran K <i class="fa-solid fa-heart"></i> </p>
+  </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontants = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontant of tabcontants){
+        tabcontant.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
