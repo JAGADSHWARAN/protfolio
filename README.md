@@ -1,16 +1,15 @@
-Personal Protfolio for (Fresher)
+Personal Portfolio for a Fresh Graduate
 
-Aim to Show My Self Via Protfolio in this protfolio i split into five session ( Home,Abot,Skills,Protfolio,Contact).
+I aim to showcase myself through this portfolio, which is divided into five sections: Home, About, Skills, Portfolio, and Contact.
 
-Home session having my name nd outline along with my photo
+The Home section includes my name, a brief introduction, and a photo of myself.
 
-About session having About me ( Skills,Project,Education)
+The About section provides information about me, including my skills, projects, and educational background.
 
-Skills session having my skills laguages knowned by me ( SQL,Python,HTML )
+The Skills section lists the programming languages I am proficient in, such as SQL, Python, and HTML.
 
-Protfolio session having my works ( mini project )
+The Portfolio section displays my works, including mini projects I have completed.
 
-Contact session having my contact info nd socialmedia links also having Contact Form nd u can download my Resume and finally copyright session.
+The Contact section contains my contact information, social media links, a contact form, and the option to download my resume. Lastly, there is a copyright section.
 
-
-For any questions, suggestions, feedback or comments, please let us know.
+If you have any questions, suggestions, feedback, or comments, please feel free to reach out to me.
